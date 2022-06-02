@@ -3,7 +3,7 @@
 ## [Problem Definition]
 ![image](https://user-images.githubusercontent.com/97151697/171563811-d32765f4-b429-49be-944a-e53209ce917f.png)
 
-build a deep learning algorithm to classify patients with STEMI or not, by using ECG and CNN 1d Model
+build a deep learning algorithm to classify patients with STEMI or not, using ECG and CNN 1d Model
 
 - x = time-series data (ECG waveform)
 - y = labels (STEMI or Not ; 0 or 1)
