@@ -33,7 +33,7 @@ waveform should have a numpy array shape (total count, 5120, 8)
 ---
 
 ## [Model build, train and test]
-There are two models - (1) model from Attia, (2) simpler the model.
+There are two models - (1) model from Attia, and (2) the simpler one.
 
 ### (1) [Model](https://github.com/kyulee-jeon/PROPHECY-STEMI/blob/main/Code/Model%20and%20Visualization.ipynb)
 
