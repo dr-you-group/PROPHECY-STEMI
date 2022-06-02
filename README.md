@@ -25,9 +25,15 @@ Code | preprocessing | make a label table | make datasets
 ---|---|---|---|
  [KOMATE](https://github.com/kyulee-jeon/PROPHECY-STEMI/blob/main/Code/Make%20label%20table%20and%20datasets%20of%20KOMATE.ipynb) | X (privacy) | O | O
  [PTB_XL](https://github.com/kyulee-jeon/PROPHECY-STEMI/blob/main/Code/Preprocess%2C%20Make%20label%20table%20and%20datasets%20of%20PTB_XL.ipynb) | O | O | O
+
+waveform should have a numpy array shape (total count, 5120, 8)
+- 5120 rows = 500 Hz * 10 seconds + 120 padding
+- 8 columns = 8 leads (I, II, V1, V2, V3, V4, V5, V6)
+
 ---
 
 ## [Model build, train and test]
+There are two models - (1) model from Attia, (2) simpler the model.
 
 ### (1) [Model](https://github.com/kyulee-jeon/PROPHECY-STEMI/blob/main/Code/Model%20and%20Visualization.ipynb)
 
